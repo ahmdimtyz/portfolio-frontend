@@ -3,9 +3,9 @@ name: CI
 # run on pushes and PRs to main (and any other branch you like)
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   lint:
@@ -48,7 +48,7 @@ jobs:
 
       # Optional: Upload build artifacts so you can inspect them
       - name: Upload Next build
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: next-build
           path: .next
