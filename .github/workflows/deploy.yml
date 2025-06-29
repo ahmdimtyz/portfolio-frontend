@@ -1,0 +1,34 @@
+name: Deploy to Droplet
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up SSH key
+        uses: webfactory/ssh-agent@v0.8.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Run deploy script on Droplet
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_HOST }} << 'EOF'
+            set -e
+            cd /opt/portfolio-frontend
+            git pull origin main
+            docker build -t portfolio-frontend:latest .
+            docker rm -f portfolio-frontend 2>/dev/null || true
+            docker run -d \
+              --name portfolio-frontend \
+              -p 80:3000 \
+              -e NODE_ENV=production \
+              portfolio-frontend:latest
+          EOF
