@@ -1,5 +1,3 @@
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { FeaturedProject } from "@/components/FeaturedProject"
 import { ProjectsSection } from "@/components/ProjectsSection"
 
