@@ -11,7 +11,7 @@ export function AboutMe() {
         alt="Ahmad Imtiyaz"
         className="rounded-full"
       />
-      <h1 className="text-4xl font-bold text-emerald-800">Ahmad Imtiyaz</h1>
+      <h1 className="text-4xl font-bold text-gray-800">Ahmad Imtiyaz</h1>
       <p className="max-w-xl text-gray-700">
         Forever learning, forever trying.
       </p>

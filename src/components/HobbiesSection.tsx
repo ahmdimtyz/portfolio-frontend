@@ -10,7 +10,7 @@ const hobbies = [
 export function HobbiesSection() {
   return (
     <section id="hobbies" className="py-12 bg-white rounded-lg shadow">
-      <h2 className="text-3xl font-semibold text-emerald-800 mb-6 text-center">
+      <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
         Hobbies & Interests
       </h2>
       <div className="flex flex-wrap justify-center gap-8">

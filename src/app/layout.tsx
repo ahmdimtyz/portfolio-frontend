@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.className} bg-gray-50 text-gray-800`}>
         <header className="shadow-md bg-white">
           <nav className="container mx-auto flex justify-between items-center p-4">
-            <h1 className="text-2xl font-bold text-emerald-900">Imtiyaz.dev</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Imtiyaz.dev</h1>
 
             {/* Desktop Links */}
             <ul className="hidden md:flex space-x-6 text-sm font-medium">
@@ -58,21 +58,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   >
                     <DropdownMenuItem
                       asChild
-                      className="px-3 py-2 rounded-md hover:bg-purple-50 hover:text-purple-700
+                      className="px-3 py-2 rounded-md hover:bg-purple-50 hover:text-gray-800
                                 transition-colors duration-150"
                     >
                       <a href="#">Home</a>
                     </DropdownMenuItem>
                     <DropdownMenuItem
                       asChild
-                      className="px-3 py-2 rounded-md hover:bg-purple-50 hover:text-purple-700
+                      className="px-3 py-2 rounded-md hover:bg-purple-50 hover:text-gray-800
                                 transition-colors duration-150"
                     >
                       <a href="#projects">Projects</a>
                     </DropdownMenuItem>
                     <DropdownMenuItem
                       asChild
-                      className="px-3 py-2 rounded-md hover:bg-purple-50 hover:text-purple-700
+                      className="px-3 py-2 rounded-md hover:bg-purple-50 hover:text-gray-800
                                 transition-colors duration-150"
                     >
                       <a href="#contact">Contact</a>
@@ -89,10 +89,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="text-center text-sm text-gray-500 mt-12 pb-6 space-y-2">
           <div>© {new Date().getFullYear()} Ahmad Imtiyaz. All rights reserved.</div>
           <div className="flex justify-center space-x-4">
-            <a href="mailto:ahmadimyazzs@gmail.com" className="hover:text-emerald-600">Email</a>
-            <a href="https://github.com/ahmdimtyz" target="_blank" rel="noreferrer" className="hover:text-emerald-600">GitHub</a>
-            <a href="https://linkedin.com/in/ahmadimtiyaz" target="_blank" rel="noreferrer" className="hover:text-emerald-600">LinkedIn</a>
-            <a href="https://open.spotify.com/user/uhm8vyt89eg3mk3kjlrprnjdf?si=8ebf3d49ec4344d7" target="_blank" rel="noreferrer" className="hover:text-emerald-600">Spotify</a>
+            <a href="mailto:ahmadimyazzs@gmail.com" className="hover:text-gray-600">Email</a>
+            <a href="https://github.com/ahmdimtyz" target="_blank" rel="noreferrer" className="hover:text-gray-600">GitHub</a>
+            <a href="https://linkedin.com/in/ahmadimtiyaz" target="_blank" rel="noreferrer" className="hover:text-gray-600">LinkedIn</a>
+            <a href="https://open.spotify.com/user/uhm8vyt89eg3mk3kjlrprnjdf?si=8ebf3d49ec4344d7" target="_blank" rel="noreferrer" className="hover:text-gray-600">Spotify</a>
           </div>
         </footer>
       </body>

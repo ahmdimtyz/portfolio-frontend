@@ -6,6 +6,14 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,             // always center the container
+      padding: {
+        DEFAULT: "1rem",        // px-4 on all sizes
+        sm: "1.5rem",           // px-6 from ≥640px
+        lg: "2rem",             // px-8 from ≥1024px
+      },
+    },
   	extend: {
   		borderRadius: {
   			lg: 'var(--radius)',

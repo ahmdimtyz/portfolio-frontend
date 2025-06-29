@@ -1,10 +1,9 @@
 import { AboutMe }   from "@/components/AboutMe"
-//import { SkillsSection } from "@/components/SkillsSection"       // coming next
+import { SkillsSection } from "@/components/SkillsSection"       // coming next
 //import { ExperienceTimeline } from "@/components/ExperienceTimeline" // next
 //import { TestimonialsSection }  from "@/components/TestimonialsSection" // next
 //import { BlogTeaserSection }    from "@/components/BlogTeaserSection"   // next
 import { HobbiesSection }     from "@/components/HobbiesSection"
-import { FeaturedProject } from "@/components/FeaturedProject"
 import { ProjectsSection } from "@/components/ProjectsSection"
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
     <section className="space-y-16">
       {/* Intro */}
       <div className="text-center">
-        <h2 className="text-3xl font-semibold text-emerald-800 mb-4">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
           Welcome to my portfolio!
         </h2>
         <p className="text-lg text-gray-700">
@@ -22,10 +21,7 @@ export default function Home() {
 
       <AboutMe />
       <HobbiesSection />
-      {/* Featured */}
-      <FeaturedProject />
-
-      {/* Projects Grid */}
+      <SkillsSection />
       <ProjectsSection />
 
       
