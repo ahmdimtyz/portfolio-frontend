@@ -1,3 +1,9 @@
+import { AboutMe }   from "@/components/AboutMe"
+//import { SkillsSection } from "@/components/SkillsSection"       // coming next
+//import { ExperienceTimeline } from "@/components/ExperienceTimeline" // next
+//import { TestimonialsSection }  from "@/components/TestimonialsSection" // next
+//import { BlogTeaserSection }    from "@/components/BlogTeaserSection"   // next
+import { HobbiesSection }     from "@/components/HobbiesSection"
 import { FeaturedProject } from "@/components/FeaturedProject"
 import { ProjectsSection } from "@/components/ProjectsSection"
 
@@ -10,15 +16,19 @@ export default function Home() {
           Welcome to my portfolio!
         </h2>
         <p className="text-lg text-gray-700">
-          I build cool things with code, coffee, and chaotic good energy ☕💻
+          I build cool things with code, chamomile tea, and cakes.  🍵🍰
         </p>
       </div>
 
+      <AboutMe />
+      <HobbiesSection />
       {/* Featured */}
       <FeaturedProject />
 
       {/* Projects Grid */}
       <ProjectsSection />
+
+      
     </section>
   )
 }

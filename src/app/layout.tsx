@@ -86,8 +86,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main className="container mx-auto py-8">{children}</main>
 
-        <footer className="text-center text-sm text-gray-500 mt-12 pb-6">
-          © {new Date().getFullYear()} Ahmad Imtiyaz. All rights reserved.
+        <footer className="text-center text-sm text-gray-500 mt-12 pb-6 space-y-2">
+          <div>© {new Date().getFullYear()} Ahmad Imtiyaz. All rights reserved.</div>
+          <div className="flex justify-center space-x-4">
+            <a href="mailto:ahmadimyazzs@gmail.com" className="hover:text-emerald-600">Email</a>
+            <a href="https://github.com/ahmdimtyz" target="_blank" rel="noreferrer" className="hover:text-emerald-600">GitHub</a>
+            <a href="https://linkedin.com/in/ahmadimtiyaz" target="_blank" rel="noreferrer" className="hover:text-emerald-600">LinkedIn</a>
+            <a href="https://open.spotify.com/user/uhm8vyt89eg3mk3kjlrprnjdf?si=8ebf3d49ec4344d7" target="_blank" rel="noreferrer" className="hover:text-emerald-600">Spotify</a>
+          </div>
         </footer>
       </body>
     </html>
