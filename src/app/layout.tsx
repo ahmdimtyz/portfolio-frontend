@@ -91,7 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="flex justify-center space-x-4">
             <a href="mailto:ahmadimyazzs@gmail.com" className="hover:text-gray-600">Email</a>
             <a href="https://github.com/ahmdimtyz" target="_blank" rel="noreferrer" className="hover:text-gray-600">GitHub</a>
-            <a href="https://linkedin.com/in/ahmadimtiyaz" target="_blank" rel="noreferrer" className="hover:text-gray-600">LinkedIn</a>
+            <a href="https://linkedin.com/in/ahmad-imtiyaz-002924246/" target="_blank" rel="noreferrer" className="hover:text-gray-600">LinkedIn</a>
             <a href="https://open.spotify.com/user/uhm8vyt89eg3mk3kjlrprnjdf?si=8ebf3d49ec4344d7" target="_blank" rel="noreferrer" className="hover:text-gray-600">Spotify</a>
           </div>
         </footer>
