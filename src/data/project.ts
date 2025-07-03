@@ -1,5 +1,3 @@
-import { SUPPORTED_TEST_RUNNERS_LIST } from "next/dist/cli/next-test"
-
 export interface Project {
   title: string
   description: string
