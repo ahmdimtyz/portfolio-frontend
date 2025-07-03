@@ -6,6 +6,7 @@ import { CertificatesSection } from "@/components/CertificatesSection"
 //import { BlogTeaserSection }    from "@/components/BlogTeaserSection"   // next
 import { HobbiesSection }     from "@/components/HobbiesSection"
 import { ProjectsSection } from "@/components/ProjectsSection"
+import { ContactSection } from "@/components/ContactSection"
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <SkillsSection />
       <ProjectsSection />
       <CertificatesSection />
+      <ContactSection />
 
       
     </section>
