@@ -16,7 +16,7 @@ const certificates: Certificate[] = [
   {
     title: "Foundation in Engineering and Computer Science",
     issuer: "Centre for Foundation Studies IIUM",
-    date: "Gambang, Pahang 2021",
+    date: "Gambang, Pahang. 2021",
   },
   {
     title: "RunCloud Professional Certificate – Cloud Practitioner (Entry Level)",
