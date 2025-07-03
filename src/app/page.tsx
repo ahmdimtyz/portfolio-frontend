@@ -1,5 +1,6 @@
 import { AboutMe }   from "@/components/AboutMe"
-import { SkillsSection } from "@/components/SkillsSection"       // coming next
+import { SkillsSection } from "@/components/SkillsSection"
+import { CertificatesSection } from "@/components/CertificatesSection"
 //import { ExperienceTimeline } from "@/components/ExperienceTimeline" // next
 //import { TestimonialsSection }  from "@/components/TestimonialsSection" // next
 //import { BlogTeaserSection }    from "@/components/BlogTeaserSection"   // next
@@ -23,6 +24,7 @@ export default function Home() {
       <HobbiesSection />
       <SkillsSection />
       <ProjectsSection />
+      <CertificatesSection />
 
       
     </section>
