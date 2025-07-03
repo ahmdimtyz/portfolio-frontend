@@ -47,8 +47,8 @@ export function ContactSection() {
               <CardTitle className="text-lg">{label}</CardTitle>
             </CardHeader>
             <CardContent className="flex items-center space-x-3 pt-0">
-              <div className="p-2 bg-gray-700 rounded-full">
-                <Icon className="w-5 h-5 text-white" />
+              <div className="p-2 bg-gray-200 rounded-full">
+                <Icon className="w-5 h-5 text-black" />
               </div>
               <span className="text-sm">{detail}</span>
             </CardContent>
