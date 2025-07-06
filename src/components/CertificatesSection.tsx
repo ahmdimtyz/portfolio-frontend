@@ -26,7 +26,12 @@ const certificates: Certificate[] = [
   {
     title: "RunCloud Professional Certificate – Cloud Practitioner (Advanced Level)",
     issuer: "RunCloud",
-    date: "2022",
+    date: "2025",
+  },
+  {
+    title: "AWS Cloud Practitioner Essentials",
+    issuer: "AWS",
+    date: "2025",
   },
   {
     title: "British Council English Aptis Test – CEFR C overall level",
