@@ -20,6 +20,10 @@ module.exports = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+		backgroundImage: {
+        grid: `linear-gradient(rgba(200,200,200,0.4) 1px, transparent 1px),
+               linear-gradient(90deg, rgba(200,200,200,0.4) 1px, transparent 1px)`,
+      	},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

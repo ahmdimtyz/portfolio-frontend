@@ -1,10 +1,12 @@
 import { AboutMe }   from "@/components/AboutMe"
-import { SkillsSection } from "@/components/SkillsSection"       // coming next
+import { SkillsSection } from "@/components/SkillsSection"
+import { CertificatesSection } from "@/components/CertificatesSection"
 //import { ExperienceTimeline } from "@/components/ExperienceTimeline" // next
 //import { TestimonialsSection }  from "@/components/TestimonialsSection" // next
 //import { BlogTeaserSection }    from "@/components/BlogTeaserSection"   // next
 import { HobbiesSection }     from "@/components/HobbiesSection"
 import { ProjectsSection } from "@/components/ProjectsSection"
+import { ContactSection } from "@/components/ContactSection"
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <HobbiesSection />
       <SkillsSection />
       <ProjectsSection />
+      <CertificatesSection />
+      <ContactSection />
 
       
     </section>

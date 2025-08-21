@@ -13,7 +13,7 @@ export function AboutMe() {
       />
       <h1 className="text-4xl font-bold text-gray-800">Ahmad Imtiyaz</h1>
       <p className="max-w-xl text-gray-700">
-        Forever learning, forever trying.
+        Learning new things as we go.
       </p>
       <Button asChild>
         <a href="/resume.pdf" download className="px-4">

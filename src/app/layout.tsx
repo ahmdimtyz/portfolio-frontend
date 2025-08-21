@@ -16,6 +16,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Imtiyaz.dev | Portfolio',
   description: 'Showcasing projects, skills & DevOps magic',
+  icons: {
+    icon: '/favicon.ico',                
+    shortcut: '/favicon.ico',          
+  }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

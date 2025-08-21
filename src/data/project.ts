@@ -8,7 +8,7 @@ export const projects: Project[] = [
   {
     title: "Budget Tracker Web Application",
     description:
-      "Budget tracker with a Laravel/Sanctum REST API and a React/Tailwind frontend so you can log spend in under three taps and view quick pie-and-bar reports. Nightly backups to Spaces and auto-deploys via GitHub Actions.",
+      "Budget tracker with a Laravel/Sanctum REST API and a React/Tailwind frontend so you can log spendings in under three taps and view quick pie-and-bar reports. Nightly backups to Spaces and auto-deploys via GitHub Actions.",
     stack: [
       "React",
       "Laravel",
@@ -36,4 +36,15 @@ export const projects: Project[] = [
       "Automated functional tests for the Spotify web app using Selenium (Python) and performance/load tests with JMeter. Documented results in IEEE format.",
     stack: ["Selenium", "Python", "JMeter"],
   },
+  {
+    title: "Virus Game",
+    description: "Programmed a COVID19 themed Java game using Greenfoot for and designed characters on Canva",
+    stack: ["Java", "Greenfoot"]
+  },
+  {
+  title: "University Student Examination System",
+  description:
+    "Developed an Oracle DB/SQL/PL ‍SQL application to replace a university’s paper based records modeling students, courses, exams and results in a relational schema for fast, reliable academic data lookup.",
+  stack: ["Oracle DB", "SQL", "PL/SQL"],
+},
 ]
